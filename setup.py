@@ -29,6 +29,12 @@ setup(name='policy.ces',
           'Products.LinguaPlone',
           'cirb.zopemonitoring',
           # -*- Extra requirements: -*-
+          'Products.Collage',
+          'collective.collage.portlets',
+          'plone.app.ldap',
+          'Products.CMFSquidTool',
+          'plonetheme.ces',
+
       ],
       entry_points="""
       # -*- Entry points: -*-
