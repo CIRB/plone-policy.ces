@@ -7,10 +7,13 @@
   <five:registerPackage package="." initialize=".initialize" />
   <include file="profiles.zcml" />
   <include package="cirb.zopemonitoring" />
+  <include package="collective.easyslider" />
   <include package="plonetheme.ces" />
   <include package="Products.Collage" />
   <include package="collective.collage.portlets" />
   <include package="plone.app.ldap" />
   <include package="Products.CMFSquidTool" />
+  <include package="qi.portlet.TagClouds" />
+  <include package="quintagroup.analytics" />
 
 </configure>
