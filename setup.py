@@ -36,6 +36,8 @@ setup(name='policy.ces',
           'quintagroup.analytics',
           'plone.app.ldap',
           'Products.CMFSquidTool',
+          'collective.languagemovefolders',
+          'collective.checktranslated',
           'plonetheme.ces',
 
       ],

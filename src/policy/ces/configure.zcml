@@ -15,5 +15,7 @@
   <include package="Products.CMFSquidTool" />
   <include package="qi.portlet.TagClouds" />
   <include package="quintagroup.analytics" />
+  <include package="collective.checktranslated" />
+  <include package="collective.languagemovefolders" />
 
 </configure>
