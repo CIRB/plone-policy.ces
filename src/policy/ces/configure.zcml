@@ -17,5 +17,6 @@
   <include package="quintagroup.analytics" />
   <include package="collective.checktranslated" />
   <include package="collective.languagemovefolders" />
+  <include package="cirb.footersitemap" />
 
 </configure>

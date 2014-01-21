@@ -38,6 +38,7 @@ setup(name='policy.ces',
           'Products.CMFSquidTool',
           'collective.languagemovefolders',
           'collective.checktranslated',
+          'cirb.footersitemap',
           'plonetheme.ces',
 
       ],

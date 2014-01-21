@@ -19,4 +19,26 @@
     <depends name="Products.LinguaPlone"/>
   </genericsetup:importStep>
 
+  <genericsetup:upgradeSteps
+          source="0001"
+          destination="0002"
+          profile="policy.ces:default">
+
+          <genericsetup:upgradeDepends
+          title="Unhide viewlet.footer"
+          import_steps="viewlets"
+          />
+
+          <genericsetup:upgradeStep
+          title="clean up splash page"
+          handler=".upgradesteps.clean_up_splashpage"
+          />
+
+          <genericsetup:upgradeStep
+          title="language setup folders"
+          handler=".upgradesteps.language_setup_folders"
+          />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

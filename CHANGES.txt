@@ -4,7 +4,9 @@ Changelog
 1.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add cirb.footersitemap.
+- cke_show_borders for create folders fr/nl.
+- move content in folders fr/nl.
 
 
 1.0.3 (2013-09-12)
